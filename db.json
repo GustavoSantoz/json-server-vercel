@@ -1,9 +1,20 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "offers": [
+    {
+      "id": 1,
+      "brand": "Marca A",
+      "model": "Modelo A",
+      "year": 2020,
+      "price": "R$ 50.000",
+      "color": "Preto",
+      "mileage": "10.000 km",
+      "licensePlate": "ABC-1234",
+      "city": "Cidade A",
+      "date": "2021-01-01",
+      "photos": [
+        "https://via.placeholder.com/150",
+        "https://via.placeholder.com/150"
+      ]
+    }
+  ]
 }
